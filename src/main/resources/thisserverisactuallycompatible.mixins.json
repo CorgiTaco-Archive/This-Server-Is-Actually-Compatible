@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "corgitaco.thisserverisactuallycompatible.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "thisserverisactuallycompatible.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MixinClientHooks",
+    "MixinNetworkRegistry"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
